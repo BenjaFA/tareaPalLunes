@@ -74,3 +74,9 @@ Para llegar a la creación de este diagrama pense en dividir todos los vehiculos
 
 ![image](https://github.com/BenjaFA/tareaPalLunes/assets/142475169/560ccc09-8aad-4a41-a221-cce66a714fe9)
 
+
+## PRUEBAS UNITARIAS
+
+![image](https://github.com/BenjaFA/tareaPalLunes/assets/142475169/5f4dd3ef-d959-4ba0-9f8e-0b2b71ff30ce)
+
+
