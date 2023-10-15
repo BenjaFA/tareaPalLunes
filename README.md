@@ -84,3 +84,23 @@ Para llegar a la creación de este diagrama pense en dividir todos los vehiculos
 ![image](https://github.com/BenjaFA/tareaPalLunes/assets/142475169/f7ab78a9-e4b9-4fca-860b-10aeff89fcee)
 
 
+
+## **IMPLEMENTACION DE DEPENDENCIAS**
+
+* **EJEMPLO 1 DE DEPENDENCIAS:**
+  
+![image](https://github.com/BenjaFA/tareaPalLunes/assets/142475169/99e13f1e-fc3e-4869-9426-da6da34b8a1f)
+
+**EXPLICACION:**  En la imagen se puede apreciar varios atributos, los atributos que dependen de las clases son el atributo "auto" dependiente de la clase **Auto**, "moto" dependiente de la clase **Moto** y "bici dependiente de la clase **Bici**, estos atributos muestran una forma de dependencia.
+
+
+
+* **EJEMPLO 2 DE DEPENDENCIAS:**
+  
+![image](https://github.com/BenjaFA/tareaPalLunes/assets/142475169/93b5b4d2-5127-4dfb-8584-bf1f4c4913be)
+
+**EJEMPLO 2 DE DEPENDENCIAS (OBJETOS):**
+
+![image](https://github.com/BenjaFA/tareaPalLunes/assets/142475169/140eb7a3-e4da-4393-b1e9-e65dc7242ac1)
+
+**EXPLICACION:**  Al crear los objetos "auto, moto, bici, persona" pude utilizar los metodos de sus respectivas clases, mostrandonos dependencias hacia otras clases.
