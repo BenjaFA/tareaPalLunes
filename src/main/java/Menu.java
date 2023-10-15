@@ -38,15 +38,15 @@ public class Menu {
 
             switch (opcion) {
                 case "auto":
-                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a " + persona.getDestino() + " en " + auto.getAuto() + " es de: " + auto.calcularTiempoAuto());
+                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a " + persona.getDestino() + " en " + auto.getAuto() + " es de: " + auto.calcularTiempoAuto() + " horas ");
                     break;
 
                 case "moto":
-                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a " + persona.getDestino() + " en " + moto.getMoto() + " es de: " + moto.calcularTiempoMoto());
+                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a " + persona.getDestino() + " en " + moto.getMoto() + " es de: " + moto.calcularTiempoMoto() + " horas ");
                     break;
 
                 case "bici":
-                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a " + persona.getDestino() + " en " + bici.getBici() + " es de: " + bici.calcularTiempoBici());
+                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a " + persona.getDestino() + " en " + bici.getBici() + " es de: " + bici.calcularTiempoBici() + " horas ");
                     break;
 
                 case "salir":
