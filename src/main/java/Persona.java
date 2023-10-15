@@ -35,20 +35,4 @@ public class Persona {
 
     }
 
-    public double calcularTiempo(){
-        double distancia = 20;     //Km
-        double tiempoHora = 0.0;   //CONTADOR
-
-        if (auto.getAuto().equals("auto")){
-            double autoV = 20;
-            tiempoHora = distancia/autoV;
-        } else if (moto.getMoto().equals("moto")) {
-            double motoV = 40;
-            tiempoHora = distancia/motoV;
-        } else if (bici.getBici().equals("bici")) {
-            double biciV = 10;
-            tiempoHora = distancia/biciV;
-        }
-        return tiempoHora;
-    }
 }
