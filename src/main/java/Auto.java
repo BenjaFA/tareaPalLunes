@@ -12,7 +12,7 @@ public class Auto {
     }
 
     public double calcularTiempoAuto() {
-        System.out.println("¿Cual es la distancia del recorrido?");
+        System.out.println("¿Cual es la distancia del recorrido en kilometros?");
         Scanner teclado = new Scanner(System.in);
         double distancia = teclado.nextDouble();     //Km
         double autoV = 20;
