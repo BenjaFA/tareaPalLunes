@@ -18,6 +18,5 @@ public class Bici {
         double biciV = 10;
         double tiempo = distancia/biciV;
         return tiempo;
-
     }
 }
