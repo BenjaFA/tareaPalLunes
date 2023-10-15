@@ -27,10 +27,10 @@ public class Menu {
             System.out.println("               CALCULADORA              ");
             System.out.println("               DE   TIEMPO              ");
             System.out.println("========================================");
-            System.out.println("    auto                                ");
-            System.out.println("    moto                                ");
-            System.out.println("    bici                                ");
-            System.out.println("    salir                               ");
+            System.out.println("    - auto                              ");
+            System.out.println("    - moto                              ");
+            System.out.println("    - bici                              ");
+            System.out.println("    - salir                             ");
             System.out.println("========================================");
             System.out.print("        Escriba una de las opciones  :    ");
             opcion = lector.nextLine();
@@ -38,15 +38,18 @@ public class Menu {
 
             switch (opcion) {
                 case "auto":
-                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a " + persona.getDestino() + " en " + auto.getAuto() + " es de: " + auto.calcularTiempoAuto() + " horas ");
+                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a "
+                            + persona.getDestino() + " en " + auto.getAuto() + " es de: " + auto.calcularTiempoAuto() + " horas ");
                     break;
 
                 case "moto":
-                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a " + persona.getDestino() + " en " + moto.getMoto() + " es de: " + moto.calcularTiempoMoto() + " horas ");
+                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a "
+                            + persona.getDestino() + " en " + moto.getMoto() + " es de: " + moto.calcularTiempoMoto() + " horas ");
                     break;
 
                 case "bici":
-                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a " + persona.getDestino() + " en " + bici.getBici() + " es de: " + bici.calcularTiempoBici() + " horas ");
+                    System.out.println("Hola " + persona.getNombre() + "!, el tiempo de viaje aproximado para llegar a "
+                            + persona.getDestino() + " en " + bici.getBici() + " es de: " + bici.calcularTiempoBici() + " horas ");
                     break;
 
                 case "salir":
