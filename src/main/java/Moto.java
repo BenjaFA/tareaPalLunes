@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Moto {
     private String moto;
 
@@ -10,7 +12,9 @@ public class Moto {
     }
 
     public double calcularTiempoMoto() {
-        double distancia = 20;     //Km
+        System.out.println("¿Cual es la distancia del recorrido?");
+        Scanner teclado = new Scanner(System.in);
+        double distancia = teclado.nextDouble();    //Km
         double motoV = 40;
         double tiempo = distancia/motoV;
         return tiempo;

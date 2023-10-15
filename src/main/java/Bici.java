@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Bici {
     private String bici;
 
@@ -10,7 +12,9 @@ public class Bici {
     }
 
     public double calcularTiempoBici() {
-        double distancia = 20;     //Km
+        System.out.println("¿Cual es la distancia del recorrido?");
+        Scanner teclado = new Scanner(System.in);
+        double distancia = teclado.nextDouble();    //Km
         double biciV = 10;
         double tiempo = distancia/biciV;
         return tiempo;
